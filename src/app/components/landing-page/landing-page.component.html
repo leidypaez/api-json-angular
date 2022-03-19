@@ -1,0 +1,38 @@
+<header>
+  <!-- Intro settings -->
+  <style>
+    /* Default height for small devices */
+    #intro-example {
+      height: 400px;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
+  </style>
+
+  <!-- Navbar -->
+
+  <!-- Background image -->
+  <div
+    id="intro-example"
+    class="p-5 text-center bg-image"
+    style="background-image: url('../../../assets/img/landing-page.png');"
+  >
+    <div class="mask button-software" style="background-color: rgba(16, 15, 15, 0.186);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white btn-content">
+          <button class="btn btn-primary "
+            style=" padding: 20px 25px 20px 25px; font-size: 20px; background-color: rgb(25, 41, 80);"
+            [routerLink]="['Home']"
+          >ENTRAR A LA CASA DE SOFTWARE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+<app-footer></app-footer>
