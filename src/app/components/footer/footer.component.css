@@ -1,5 +1,5 @@
 .bg-dark {
-  background-color: #272727!important;
+  background-color: #050124!important;
 }
 .importante{
   text-align: center;
@@ -12,7 +12,7 @@
   }
 
 footer .copy {
-  background-color: rgba(10, 10, 10, 0.481);
+  background-color: rgba(42, 37, 67, 0.227);
 }
 
 footer a:hover {
