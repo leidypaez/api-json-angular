@@ -11,15 +11,15 @@
       <!-- | filter:'category':criterio  *ngFor="let item of animal | filter:'category':type"-->
       <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 section-target py-4" *ngFor="let companySoftware of company">
         <div class="card">
-          <img
-            src="{{companySoftware.imageUrl}}"
-            class="img h-40"
+          <div class="gravatar" >
+            <img ngxGravatar [email]="companySoftware.email"
           />
+          </div>
           <div class="card-body">
-            <h5 class="card-title">{{companySoftware.name}}</h5>
-            <p class="card-text">{{companySoftware.email}}</p>
-            <p class="card-text">{{companySoftware.address.street}}</p>
-            <p class="card-text">{{companySoftware.company.name}}</p>
+            <h5 class="card-title text-center">{{companySoftware.name}}</h5>
+            <p class="card-text text-center">{{companySoftware.email}}</p>
+            <p class="card-text text-center">{{companySoftware.address.street}}</p>
+            <p class="card-text text-center">{{companySoftware.company.name}}</p>
           </div>
         </div>
       </div>

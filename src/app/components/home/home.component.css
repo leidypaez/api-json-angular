@@ -1,10 +1,22 @@
 .card-img-top{
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 10rem;
 }
 .card {
-  height: 450px;
-  width: 340px;
+  height: 310px;
+  width: 320px;
   border: solid 1px rgb(182, 182, 182);
   box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.gravatar {
+  margin-top: 10%;
+  margin-left: 42%;
+  height: 64px;
+  width: 110px;
+  size: 400px;
+}
+
+.gravatar img {
+  width: 100%;
 }
